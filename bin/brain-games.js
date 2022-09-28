@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-import parityCheck from './brain-even.js'
+import readlineSync from "readline-sync";
+// import parityCheck from "./brain-even.js";
+import greeting from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
+greeting()
 
-parityCheck();
+// parityCheck();
